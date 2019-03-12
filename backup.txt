@@ -1,0 +1,19 @@
+
+          //if storing the clicked point
+          // std::cout << c_zpos << "zpos : size of modelview mat " << sizeof(modelview_matrix) << std::endl;
+          // std::cout << "x " << xpos << " y " << ypos << std::endl;  
+          // xpos = xpos/510;
+          // ypos = ypos/510;
+          // glm::vec4 frame_coords(xpos, ypos, c_zpos, 1.0);
+          // // glm:::vec4 actual_coords;
+          // inv_modview = glm::inverse(view_matrix) ;
+          // glm::vec4 actual_coords(inv_modview * frame_coords);
+
+          // std::cout << "actual_coords "<< actual_coords[0] << " "<< actual_coords[1] << " "<< actual_coords[2]<< " "<< actual_coords[3] <<std::endl;
+          // //division by arr 3 just for a check , not compulsory
+          // beizer_points[num_beizer_points][0] = actual_coords[0]/actual_coords[3];
+          // beizer_points[num_beizer_points][1] = actual_coords[1]/actual_coords[3];
+          // beizer_points[num_beizer_points][2] = c_zpos;
+          // beizer_points[num_beizer_points][3] = actual_coords[3]/actual_coords[3];
+          // num_beizer_points++;
+
